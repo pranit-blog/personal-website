@@ -227,7 +227,7 @@ ul{margin:0;padding:0;list-style:none;}
 /* ============================================================
    Hero
    ============================================================ */
-.hero{padding:56px 0 40px;}
+.hero{padding-block:56px 40px;}
 .hero-headline{
   font-family:var(--font-display);
   font-weight:400;
@@ -283,7 +283,7 @@ ul{margin:0;padding:0;list-style:none;}
 /* ============================================================
    Section headings
    ============================================================ */
-.section{padding:52px 0;}
+.section{padding-block:52px;}
 .section-head{
   display:flex;align-items:flex-end;justify-content:space-between;
   gap:20px;flex-wrap:wrap;margin-bottom:30px;
@@ -335,7 +335,7 @@ hr.rule{border:none;border-top:1px dashed var(--line);margin:44px 0;}
    ============================================================ */
 .site-footer{background:var(--near-black);color:#fff;margin-top:60px;}
 .newsletter-band{
-  padding:44px 0;border-bottom:1px solid rgba(255,255,255,.12);
+  padding-block:44px;border-bottom:1px solid rgba(255,255,255,.12);
   display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;
 }
 .newsletter-band h3{font-family:var(--font-display);font-size:22px;font-weight:400;font-style:italic;}
@@ -352,7 +352,7 @@ hr.rule{border:none;border-top:1px dashed var(--line);margin:44px 0;}
 }
 .footer-form .form-status.is-error{color:#ff9d8a;}
 .footer-bottom{
-  padding:26px 0 34px;display:flex;justify-content:space-between;
+  padding-block:26px 34px;display:flex;justify-content:space-between;
   align-items:center;flex-wrap:wrap;gap:16px;
 }
 .footer-nav{display:flex;gap:20px;flex-wrap:wrap;}
@@ -370,7 +370,7 @@ hr.rule{border:none;border-top:1px dashed var(--line);margin:44px 0;}
 /* ============================================================
    Page hero (About / Contact / Newsletter / Essays hub)
    ============================================================ */
-.page-hero{padding:50px 0 20px;}
+.page-hero{padding-block:50px 20px;}
 .page-eyebrow{color:var(--muted);}
 .page-title{
   font-family:var(--font-serif);font-weight:600;
