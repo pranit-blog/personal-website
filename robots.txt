@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.saindani.com/sitemap.xml
+Sitemap: https://pranitsaindani.com/sitemap.xml
