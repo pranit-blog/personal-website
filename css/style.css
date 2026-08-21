@@ -408,7 +408,7 @@ hr.rule{border:none;border-top:1px dashed var(--line);margin:44px 0;}
   border:1px solid var(--line);border-radius:var(--radius-pill);
   padding:7px 14px;color:var(--ink-soft);
 }
-.about-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px;}
+.about-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px;}
 
 /* ============================================================
    Contact page
