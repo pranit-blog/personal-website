@@ -267,10 +267,11 @@ ul{margin:0;padding:0;list-style:none;}
   background:none;
   border:none;
   border-top:2px dashed var(--line);
+  border-bottom:2px dashed var(--line);
   border-radius:0;
-  padding:40px 0 0;
+  padding:40px 0;
   display:flex;gap:24px;align-items:center;
-  margin:44px 0 0;
+  margin:44px 0;
 }
 .author-strip .avatar-circle{
   width:64px;height:64px;flex:none;font-size:18px;
