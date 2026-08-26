@@ -97,6 +97,7 @@ ul{margin:0;padding:0;list-style:none;}
 .eyebrow.tech{color:var(--teal);}
 .eyebrow.behaviour{color:var(--green);}
 .eyebrow.contrarian{color:var(--orange-deep);}
+.newsletter-band .eyebrow{color:var(--orange);display:block;margin-bottom:8px;}
 
 .visually-hidden{
   position:absolute;width:1px;height:1px;padding:0;margin:-1px;
