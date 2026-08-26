@@ -104,7 +104,7 @@
   /* Newsletter forms -> Google Sheets, via a Google Apps Script Web App.
      Setup + the script to paste into Apps Script: google-apps-script/Code.gs
      Paste your deployed Web App URL (ends in /exec) below once it's live. */
-  var SUBSCRIBE_ENDPOINT = "PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE";
+  var SUBSCRIBE_ENDPOINT = "https://script.google.com/macros/s/AKfycbxlDZQJ4z0-0zWY_b3h-FH066OIxTZP_acRC_S-epi1avFXL4p184iLj3dznNOzCFDY/exec";
 
   document.querySelectorAll("[data-newsletter-form]").forEach(function (form) {
     var input = form.querySelector('input[type="email"]');
