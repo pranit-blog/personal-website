@@ -524,6 +524,71 @@ hr.rule{border:none;border-top:1px dashed var(--line);margin:44px 0;}
 .related-heading{margin-top:70px;}
 
 /* ============================================================
+   Book page
+   ============================================================ */
+.book-hero{
+  padding-block:56px 40px;
+  display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center;
+}
+.book-title{
+  font-family:var(--font-display);font-weight:400;
+  font-size:clamp(40px,6vw,64px);line-height:1;letter-spacing:-.01em;
+  margin-top:22px;
+}
+.book-subtitle{
+  font-family:var(--font-serif);font-weight:600;font-style:italic;
+  font-size:clamp(18px,2.2vw,22px);color:var(--ink-soft);margin-top:10px;
+}
+.book-hook{margin-top:20px;font-size:19px;color:var(--ink-soft);max-width:480px;line-height:1.6;}
+.book-cta-row{margin-top:28px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;}
+.book-price{font-family:var(--font-mono);font-size:13px;color:var(--muted);}
+
+.book-cover{
+  aspect-ratio:5/7;border-radius:var(--radius-md);
+  box-shadow:var(--shadow-pop);
+  overflow:hidden;
+  max-width:340px;margin-inline:auto;
+}
+.book-cover img{
+  width:100%;height:100%;object-fit:cover;
+}
+
+.book-copy-block{max-width:680px;}
+.book-copy-block p{font-size:17px;line-height:1.75;color:var(--ink-soft);margin-top:18px;}
+.book-copy-block p:first-of-type{margin-top:0;}
+.book-copy-block em{color:var(--ink);font-style:italic;}
+
+.book-benefits{grid-template-columns:repeat(3,1fr);}
+.book-benefits .benefit:nth-child(4),
+.book-benefits .benefit:nth-child(5){grid-column:span 1;}
+
+.book-author-strip{margin:0;}
+
+.book-faq{display:flex;flex-direction:column;gap:2px;max-width:720px;}
+.faq-item{
+  border-bottom:1px solid var(--line);padding:18px 0;
+}
+.faq-item summary{
+  cursor:pointer;font-weight:600;font-size:16px;list-style:none;
+  display:flex;justify-content:space-between;align-items:center;gap:16px;
+}
+.faq-item summary::-webkit-details-marker{display:none;}
+.faq-item summary::after{
+  content:"+";font-family:var(--font-mono);font-size:18px;color:var(--muted);flex:none;
+}
+.faq-item[open] summary::after{content:"−";}
+.faq-item p{margin-top:12px;color:var(--muted);font-size:15px;line-height:1.65;}
+
+.book-cta-band{
+  background:var(--near-black);color:#fff;border-radius:var(--radius-lg);
+  padding:40px 44px;margin-bottom:60px;
+  display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;
+}
+.book-cta-band .eyebrow{color:var(--orange);}
+.book-cta-band h3{font-family:var(--font-display);font-size:24px;font-weight:400;margin-top:8px;}
+.book-cta-band p{color:rgba(255,255,255,.6);margin-top:4px;font-size:14.5px;}
+
+/* ============================================================
    Responsive
    ============================================================ */
 @media (max-width:960px){
@@ -531,9 +596,15 @@ hr.rule{border:none;border-top:1px dashed var(--line);margin:44px 0;}
   .about-grid{grid-template-columns:1fr;}
   .contact-grid{grid-template-columns:1fr;}
   .newsletter-benefits{grid-template-columns:1fr;}
+  .book-benefits{grid-template-columns:repeat(2,1fr);}
+  .book-hero{grid-template-columns:1fr;}
+  .book-hero .book-cover{max-width:320px;order:-1;}
 }
 @media (max-width:860px){
   .featured-post{grid-template-columns:1fr;gap:24px;}
+}
+@media (max-width:560px){
+  .book-benefits{grid-template-columns:1fr;}
 }
 @media (max-width:700px){
   .main-nav{
