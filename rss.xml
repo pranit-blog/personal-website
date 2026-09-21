@@ -5,7 +5,25 @@
   <link>https://pranitsaindani.com/</link>
   <description>Posts on finance, technology, and behaviour from a former banking regulator (RBI, BNP Paribas, Nasdaq) turned fintech founder.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 24 Aug 2026 00:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 21 Sep 2026 00:00:00 GMT</lastBuildDate>
+
+  <item>
+    <title>AI Doesn't Run on GPUs. It Runs on Cheap Capital.</title>
+    <link>https://pranitsaindani.com/essays/ai-runs-on-cheap-capital/</link>
+    <guid>https://pranitsaindani.com/essays/ai-runs-on-cheap-capital/</guid>
+    <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+    <category>Finance &amp; Regulation</category>
+    <description>AI's scarcest input isn't compute, it's cheap capital. An oil shock in Hormuz can raise the cost of debt and Gulf money, and slow AI faster than any regulator.</description>
+  </item>
+
+  <item>
+    <title>Stop Comparing the AI Bubble to 2008. It's a Different Beast.</title>
+    <link>https://pranitsaindani.com/essays/ai-bubble-not-2008/</link>
+    <guid>https://pranitsaindani.com/essays/ai-bubble-not-2008/</guid>
+    <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+    <category>Finance &amp; Regulation</category>
+    <description>Oracle's debt, circular Nvidia-OpenAI deals, and stretched valuations look like 2008 subprime. They're not. In 2008 the money was borrowed against nothing; today's AI buildout is funded by cash flow that already exists.</description>
+  </item>
 
   <item>
     <title>Every System Built to Prevent the Last Crisis Is Optimized to Miss the Next One</title>
